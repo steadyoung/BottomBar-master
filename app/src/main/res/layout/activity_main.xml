@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:ignore="HardcodedText">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="看看这些样品和他们的来源最基本的用例。\n\n注:这些样品在平板电脑上看起来有点不同。如果你想要同样的行为为平板电脑和手机,使用mBottomBar.noTabletGoodness();"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/simple_three_tabs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="简单的例子有三个选项卡" />
+
+    <Button
+        android:id="@+id/five_tabs_custom_colors"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="使用自定义标签和背景颜色" />
+
+    <Button
+        android:id="@+id/five_tabs_changing_colors"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="五个标签改变颜色" />
+
+    <Button
+        android:id="@+id/three_tabs_quick_return"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="三个选项卡，上拉隐藏，下拉显示" />
+
+    <Button
+        android:id="@+id/badges"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="选项卡新消息标识" />
+
+</LinearLayout>
